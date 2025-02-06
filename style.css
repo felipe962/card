@@ -1,3 +1,6 @@
+:root{
+    --cor-hover: white;
+}
 *{
     padding: 0;
     margin: 0;
@@ -11,7 +14,7 @@ a{
     color: inherit;
 }
 .menu{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     justify-content: end;
     gap: 24px;
     display: flex;
@@ -26,10 +29,67 @@ a{
     padding: 4px 8px;
 }
 .menu li:hover{
-    background-color: red;
+
+    background-color: var(--cor-hover)
+
     
 }
 .menu img {
     height: 30px;
 
+}
+main {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 40vh;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  height: 40vh;
+}
+
+.card-content {
+  padding: 35px;
+  
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.installments {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.free-shipping {
+  font-size: 0.9rem;
+  color: green;
+  margin-top: 5px;
+}
+
+.discount {
+  font-size: 0.9rem;
+  color: red;
+  text-decoration: line-through;
 }
