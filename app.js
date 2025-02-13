@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             nome: "Chuteira Penalty",
             descricao: "Preta clássica com detalhes laranjas adaptada para jogar futsal " ,
-            imagem: "./img/penalty.png"
+            imagem: "./img/Penalty.png"
         }
     ];
 
